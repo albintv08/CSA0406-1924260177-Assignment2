@@ -1,0 +1,6 @@
+Child received: 104857600 bytes
+Data validation: SUCCESS
+Pipe transfer size: 100 MB
+Parent sent: 104857600 bytes
+Transfer time: 0.166403 seconds
+Child exit status: SUCCESS

@@ -1,0 +1,6 @@
+Child received: 1048576 bytes
+Data validation: SUCCESS
+Shared memory transfer size: 1 MB
+Parent wrote: 1048576 bytes
+Transfer time: 0.004447 seconds
+Child exit status: SUCCESS
