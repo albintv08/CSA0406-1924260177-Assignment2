@@ -1,0 +1,9 @@
+BOUNDED BUFFER: 100- RUN RELIABILITY TEST
+Configuration: 1 producer(s), 1 consumer(s)
+Successful runs: 100 / 100
+Failed runs: 0
+
+Configuration: 4 producer(s), 4 consumer(s)
+Successful runs: 100 / 100
+Failed runs: 0
+

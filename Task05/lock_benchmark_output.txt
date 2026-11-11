@@ -1,0 +1,34 @@
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.031322 seconds
+Throughput: 25540886 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.017548 seconds
+Throughput: 45589275 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.010023 seconds
+Throughput: 79812592 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.016156 seconds
+Throughput: 49518577 bookings/second
+Verification: SUCCESS

@@ -1,0 +1,175 @@
+========== BENCHMARK RUN 1 ==========
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.046113 seconds
+Throughput: 17348584 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.015393 seconds
+Throughput: 51971780 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.009918 seconds
+Throughput: 80658870 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.019198 seconds
+Throughput: 41670693 bookings/second
+Verification: SUCCESS
+========== BENCHMARK RUN 2 ==========
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.031593 seconds
+Throughput: 25322079 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.018323 seconds
+Throughput: 43661130 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.017980 seconds
+Throughput: 44493429 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.015580 seconds
+Throughput: 51348782 bookings/second
+Verification: SUCCESS
+========== BENCHMARK RUN 3 ==========
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.025751 seconds
+Throughput: 31066462 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.022905 seconds
+Throughput: 34926806 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.013536 seconds
+Throughput: 59101026 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.009106 seconds
+Throughput: 87850766 bookings/second
+Verification: SUCCESS
+========== BENCHMARK RUN 4 ==========
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.033876 seconds
+Throughput: 23615802 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.015913 seconds
+Throughput: 50274543 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.013235 seconds
+Throughput: 60447423 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.013773 seconds
+Throughput: 58086695 bookings/second
+Verification: SUCCESS
+========== BENCHMARK RUN 5 ==========
+RAILWAY BOOKING LOCK GRANULARITY BENCHMARK
+Threads: 4 | Bookings per thread: 200000
+
+Locking method: Global Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.039959 seconds
+Throughput: 20020330 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Train Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.017797 seconds
+Throughput: 44951742 bookings/second
+Verification: SUCCESS
+
+Locking method: Per-Coach Mutex
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.009884 seconds
+Throughput: 80938719 bookings/second
+Verification: SUCCESS
+
+Locking method: Atomic Spinlock
+Threads: 4
+Total bookings: 800000
+Expected bookings: 800000
+Execution time: 0.026290 seconds
+Throughput: 30429464 bookings/second
+Verification: SUCCESS

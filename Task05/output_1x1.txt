@@ -1,0 +1,49 @@
+Producer 1 produced item 1
+Producer 1 produced item 2
+Producer 1 produced item 3
+Producer 1 produced item 4
+Producer 1 produced item 5
+Consumer 1 consumed item 1
+Producer 1 produced item 6
+Consumer 1 consumed item 2
+Consumer 1 consumed item 3
+Consumer 1 consumed item 4
+Consumer 1 consumed item 5
+Consumer 1 consumed item 6
+Producer 1 produced item 7
+Producer 1 produced item 8
+Producer 1 produced item 9
+Consumer 1 consumed item 7
+Producer 1 produced item 10
+Consumer 1 consumed item 8
+Producer 1 produced item 11
+Consumer 1 consumed item 9
+Producer 1 produced item 12
+Consumer 1 consumed item 10
+Producer 1 produced item 13
+Consumer 1 consumed item 11
+Producer 1 produced item 14
+Consumer 1 consumed item 12
+Producer 1 produced item 15
+Consumer 1 consumed item 13
+Producer 1 produced item 16
+Consumer 1 consumed item 14
+Producer 1 produced item 17
+Consumer 1 consumed item 15
+Producer 1 produced item 18
+Consumer 1 consumed item 16
+Producer 1 produced item 19
+Consumer 1 consumed item 17
+Producer 1 produced item 20
+Consumer 1 consumed item 18
+Consumer 1 consumed item 19
+Consumer 1 consumed item 20
+
+=== SYNCHRONIZATION RESULTS ===
+Producers: 1
+Consumers: 1
+Items produced: 20
+Items consumed: 20
+Consumed item sum: 210
+Exactly-once verification: SUCCESS
+Execution time: 0.000245 seconds

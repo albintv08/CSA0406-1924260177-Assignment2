@@ -1,0 +1,12 @@
+NO-MUTEX RELIABILITY TEST
+Configuration: 4 producers, 4 consumers
+Total runs: 100
+Successful runs: 83
+Failed runs: 17
+Success rate: 83%
+Failure rate: 17%
+
+Conclusion:
+Removing mutex protection caused synchronization failures.
+Semaphores control buffer availability but do not protect
+all shared variables from concurrent access.
