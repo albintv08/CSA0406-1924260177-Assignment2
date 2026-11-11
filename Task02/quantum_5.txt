@@ -12,4 +12,4 @@ Average Turnaround Time: 17.50
 Average Waiting Time: 11.00
 Average Response Time: 5.50
 CPU Dispatches: 6
-Context Switches (between dispatches): 5
+Context Switches: 5

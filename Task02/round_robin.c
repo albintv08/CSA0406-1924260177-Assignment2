@@ -6,6 +6,8 @@ int main(int argc, char *argv[])
 {
     int quantum = (argc > 1) ? atoi(argv[1]) : 3;
     int slices = 0;
+int context_switches = 0;
+int previous_process = -1;
     int arrival[N] = {0, 1, 2, 3};
     int burst[N] = {8, 4, 9, 5};
     int remaining[N];
@@ -44,6 +46,10 @@ int main(int argc, char *argv[])
         }
 
         int p = queue[front++];
+if (previous_process != -1 && previous_process != p)
+    context_switches++;
+
+previous_process = p;
 slices++;
         int start = time;
 
@@ -94,8 +100,6 @@ slices++;
     printf("Average Waiting Time: %.2f\n", total_wt / N);
     printf("Average Response Time: %.2f\n", total_rt / N);
 printf("CPU Dispatches: %d\n", slices);
-printf("Context Switches (between dispatches): %d\n",
-       slices > 0 ? slices - 1 : 0);
-
+printf("Context Switches: %d\n", context_switches);
     return 0;
 }
