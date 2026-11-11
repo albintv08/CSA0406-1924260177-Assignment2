@@ -1,0 +1,140 @@
+========== LARGE WORKLOAD RUN 1 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.149880 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.155572 seconds
+Speedup: 0.96x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.156005 seconds
+Speedup: 0.96x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.178154 seconds
+Speedup: 0.84x
+
+Benchmark completed successfully.
+========== LARGE WORKLOAD RUN 2 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.173171 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.139488 seconds
+Speedup: 1.24x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.187270 seconds
+Speedup: 0.92x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.183396 seconds
+Speedup: 0.94x
+
+Benchmark completed successfully.
+========== LARGE WORKLOAD RUN 3 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.145086 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.146760 seconds
+Speedup: 0.99x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.144489 seconds
+Speedup: 1.00x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.161330 seconds
+Speedup: 0.90x
+
+Benchmark completed successfully.
+========== LARGE WORKLOAD RUN 4 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.190568 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.155963 seconds
+Speedup: 1.22x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.155341 seconds
+Speedup: 1.23x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.141977 seconds
+Speedup: 1.34x
+
+Benchmark completed successfully.
+========== LARGE WORKLOAD RUN 5 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.167141 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.186232 seconds
+Speedup: 0.90x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.138804 seconds
+Speedup: 1.20x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.139248 seconds
+Speedup: 1.20x
+
+Benchmark completed successfully.

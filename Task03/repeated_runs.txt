@@ -1,0 +1,140 @@
+========== RUN 1 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 500000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.016252 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.014285 seconds
+Speedup: 1.14x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.015814 seconds
+Speedup: 1.03x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.024381 seconds
+Speedup: 0.67x
+
+Benchmark completed successfully.
+========== RUN 2 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 500000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.019588 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.016017 seconds
+Speedup: 1.22x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.014603 seconds
+Speedup: 1.34x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.017420 seconds
+Speedup: 1.12x
+
+Benchmark completed successfully.
+========== RUN 3 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 500000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.027664 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.015175 seconds
+Speedup: 1.82x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.021054 seconds
+Speedup: 1.31x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.027853 seconds
+Speedup: 0.99x
+
+Benchmark completed successfully.
+========== RUN 4 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 500000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.028775 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.013245 seconds
+Speedup: 2.17x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.016033 seconds
+Speedup: 1.79x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.017006 seconds
+Speedup: 1.69x
+
+Benchmark completed successfully.
+========== RUN 5 ==========
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 500000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.018927 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.030668 seconds
+Speedup: 0.62x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.024721 seconds
+Speedup: 0.77x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.026941 seconds
+Speedup: 0.70x
+
+Benchmark completed successfully.

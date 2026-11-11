@@ -1,0 +1,27 @@
+TRAFFIC CAMERA THREAD BENCHMARK
+Cameras: 16
+Work per camera: 5000000 iterations
+
+ONE THREAD PER CAMERA
+Threads created: 16
+Execution time: 0.217134 seconds
+
+FIXED THREAD POOL: 4 WORKERS
+Threads created: 4
+Cameras processed: 16
+Execution time: 0.240993 seconds
+Speedup: 0.90x
+
+FIXED THREAD POOL: 8 WORKERS
+Threads created: 8
+Cameras processed: 16
+Execution time: 0.162816 seconds
+Speedup: 1.33x
+
+FIXED THREAD POOL: 16 WORKERS
+Threads created: 16
+Cameras processed: 16
+Execution time: 0.138969 seconds
+Speedup: 1.56x
+
+Benchmark completed successfully.
