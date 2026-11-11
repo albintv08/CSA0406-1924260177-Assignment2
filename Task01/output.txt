@@ -1,0 +1,12 @@
+=== PROCESS MANAGEMENT DEMONSTRATION ===
+Parent Process ID: 14783
+
+Parent is waiting for child processes...
+Child PIDs: 14785 14786 14787
+Child 2 created | PID: 14786 | PPID: 14783
+Child 3 created | PID: 14787 | PPID: 14783
+Child 1 created | PID: 14785 | PPID: 14783
+Child 2 terminating | PID: 14786
+Child 3 terminating | PID: 14787
+Child 1 terminating | PID: 14785
+All child processes completed.
