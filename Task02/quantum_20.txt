@@ -1,0 +1,15 @@
+ROUND ROBIN SCHEDULING (Quantum = 20)
+Gantt Chart:
+P1(0-8) P2(8-12) P3(12-21) P4(21-26) 
+
+PROCESS	AT	BT	CT	TAT	WT	RT
+P1	0	8	8	8	0	0
+P2	1	4	12	11	7	7
+P3	2	9	21	19	10	10
+P4	3	5	26	23	18	18
+
+Average Turnaround Time: 15.25
+Average Waiting Time: 8.75
+Average Response Time: 8.75
+CPU Dispatches: 4
+Context Switches (between dispatches): 3
