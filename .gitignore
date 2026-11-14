@@ -1,0 +1,13 @@
+# Compiled C executables
+Task02/round_robin
+Task03/thread_benchmark
+Task04/pipe_ipc
+Task04/shm_ipc
+Task04/weather_pipe
+Task05/bounded_buffer
+Task05/bounded_buffer_nomutex
+Task05/lock_benchmark
+Task06/bankers
+
+# Temporary build files
+*.o
